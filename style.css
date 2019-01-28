@@ -1,0 +1,121 @@
+body{
+	height: 100%;
+	padding: 0px 0px;
+}
+
+.header{
+	border:none;
+	outline: none;
+	height: 60px;
+	background-color: #2874f0;
+}
+
+.headerrules{
+	margin-left: 50px;
+	margin-right: 50px;
+	border:none;
+	padding: 0px 15px;
+	display: flex;
+	flex-direction: row;
+}
+
+.logo{
+	height: 60px;
+	width: 175px;
+	background:url(./flipkartlogo.jpg);
+	background-size: cover;
+}
+.search{
+	padding: 10px 20px;
+	width: 700px;
+	display: flex;
+	flex-direction: row;
+}
+
+.searchlogo{
+	height: 40px;
+	background:url(./searchlogo.png);
+	width:100px;
+	background-size: contain;
+}
+
+.menu{
+	width: 400px;
+	padding: 10px 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	color: #fff;
+	font-weight: bold;
+}
+
+.menu button{
+	color: #fff;
+	font-weight: bold;
+}
+
+.menu button:hover{
+	color: #fff;
+	font-weight: bold;
+}
+
+
+.menu a {
+	padding: 6px 0px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.menu a:hover {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.categories{
+height: 40px;
+background-color: #fff;
+font-weight: bold;
+font-size: 14px;
+}
+
+.mainlist{
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 0px 10px;
+	display: flex;
+	justify-content: space-between;
+	text-align: left;
+	list-style-type: none;
+}
+
+.btn-link {
+  color: #000 ;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btn-link:hover {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.mainlistlinks{
+	padding: 6px 12px;
+}
+
+.mainlistlinks a{
+	color: #000;
+}
+
+.mainlistlinks a:hover{
+	color: #007bff;
+	text-decoration: none;
+}
+
+
+.mainsection{
+border:1px solid #000;
+}
